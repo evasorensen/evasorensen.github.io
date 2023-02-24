@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>My bachelor-project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/house.png" alt="" /></span><span class="title">EVAS PORTFOLIO</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+                <nav id="menu">
+                    <h2>Menu</h2>
+                    <ul>
+                        <li><a href="designprojekt.html">Designproject</a></li>
+                        <li><a href="index.html">All projects</a></li>
+                        <li><a href="about.html">About me</a></li>
+                    </ul>
+                </nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>My bachelor-project</h1>
+                            <hr/>
+							<span class="image right"><img src="images/eyetracking.png" alt="" /></span>
+                            <p>
+                                <h2>My project: <br/> EYETRACKING AS A METHOD FOR EVALUATING PERSONAL WEBBASED PORTFOLIOS</h2>
+                                <br/>
+                                Choosing my topic, I was inspired by eyetracking softwares that allows people with no 
+                                language and little or no motor skills to communicate using their eyes to control an 
+                                interface. The so-called command and control. Connecting eyetracking software with UX/UI-design, I thought it would be
+                                interesting to use this form of input as e way of evaluating an interface. More spefically, 
+                                I used this evaluationmethod on my own portfolio (yes, this one) to make conclusions as to how
+                                first-time visiters reacted to the frontpage and what drove their actions after being presented
+                                with the interface. 
+                                <br/><br/>
+                                <h4>The basis assumptions and explorations</h4>
+                                <blockquote><i>“Indeed, it is by moving our eyes (and our head), that the image of the objects which interest us is placed at the level of the fovea and that we can perceive our environment in all its complexity and color”</i> (Pouget 2019, 4).
+                                </blockquote>
+                                My research question became something like this: <b>which informations about 
+                                    the user does eyetracking prevail in an evaluation of a personal webbased 
+                                    portfolio and how can these informations contribute in an improvement of the 
+                                    visual communication through a re-design?</b>
+                                Although research have been made upon eyetracking as an evaluationmethod, there's no 
+                                cases of this method being used in relation with personal portfolios, which is becoming
+                                more common to use and distribute to possible employers, although little or no 
+                                guides for the design and content of a portfolio has been made. The project was made 
+                                based on the assumption that your gaze relates to our immediate interests and other 
+                                specific human cognitive interests (see Rayner 1998, 2009). 
+                                <br/><br/>
+                                <h4>Technology</h4>
+                                To make an evaluation using eyetracking, eyetracking technology is necessary. After exploring 
+                                different possible solutions, I choose to use and integrate a JavaScript library called 
+                                WebGazer.js into the original code of my portfolio. This library makes it possible to track 
+                                the point of gaze using the build in webcam. Knowing and having written in JavaScript before, alongside the 
+                                guide from the WebGazer.js-website I was able to implement the library and run the code in a browser, 
+                                collecting and saving the x- and y-coordinates that is the point of gaze. <br/><br/>
+                                It is also important, when using eyetracking, to make and conduct a calibration. This secures 
+                                and improve the data collection and minimize the noice. 
+                                <br/><br/>
+                                <h4>Theory and methods</h4>
+                                Before planning and conducting the evaluation, I dug into theory concerning the 
+                                visual communication of a website. Lisbeth Thorlacius developed a model for understanding
+                                communication between addresser and addressee on the context of a webpage. <br/>
+                                Using literature and former experience of evaluations i started planning the 
+                                evaluation of the portfolio. I underwent four points in the process of planning and
+                                conducting the evaluation: 1) pre-test planning, 2) preparation, 3) execution, and 4)
+                                data analysis. In the analysis of the collected eyetracking data, important measures 
+                                were fixations, alongside determining the precision and possible noice in the data 
+                                collection. <br/>After conducting the evaluation and analysing the data, I created heatmaps
+                                that visualize and easilier communicate areas of interests based on fixations. 
+                                <br/><br/>
+                                <h4>Results and re-design</h4>
+                                Following insights were highlighted after conducting the evaluation and analysing 
+                                important aspects: 
+                                <ul>
+                                    <li>Participants especially fixate text, mostly the biggest and bold text</li>
+                                    <li>Heatmaps shows clear signs of noice (unprecise data collection)</li>
+                                    <li>Participant often fixate in the center of the interface, even though there are 
+                                        no elements of immediate interest placed at this location
+                                    </li>
+                                    <li>The upper part of the webpage is fixated, also despite the lack of 
+                                        elements at this location
+                                    </li>
+                                    <li>The picture is not fixated and can therefore not be defined as an AOI</li>
+                                </ul>
+                                Besides insight from the eyetracking, some insights were made during retrospective 
+                                protocol (questions) and observations made during the evaluation: 
+                                <ul>
+                                    <li>All participants understood the purpose of the webpage (they weren't told beforehand)</li>
+                                    <li>All participants had detected the picture (eyetracking data showed otherwise)</li>
+                                    <li>Especially one participants data collection was noicy because of natural light 
+                                        that were reflected into the webcamera
+                                    </li>
+                                    <li>Participants wearing glasses was not distracting the data collection</li>
+                                </ul>
+                                <b>Conclusive</b>, it can be said that participants shows interest in text as they expect 
+                                this to be informative. Size and emphasis of text is connected with the amount of information. 
+                                Participants has an expectation that the upper section of the webpage consists of 
+                                some sort of overview and fixate here until the menu in the upper right corner is discovered. 
+                                Many fixations in the middle of the page can be caused by two factors: 1) participants expect 
+                                to find informative elements in this area or 2) an expression of a bias in the software, which 
+                                use the middle of the page as a starting point of the eyetracking. 
+                                <br/><br/>
+                                Lastly, a re-design of the portfolio was made and presented, based on the insights from the 
+                                evaluation. Furthermor, it was concluded that eyetracking as evaluationmethod is a useful tool 
+                                for designers who wants to gain insight into what users expect and focus on on their website. 
+                                Elements like text and menues, and the placement of these, are generally aspects to consider 
+                                for optimalised communication, use and user experience. WebGazer.js is a adequate tool for this 
+                                purpose, though designers should be attentive to certain aspects of data collection - noicy and 
+                                unprecise measurements, how they might accure and of course taking this into account in the 
+                                data analysis. It is also relevant to consider the time horizont for the evaluation, as 
+                                eyetracking evaluation can be more time consuming than other forms of evaluation. Also, 
+                                deploying eyetracking technology it is important (as in any case) to be ethical and attentive 
+                                to the privacy of the user. 
+                                <br/><br/>
+                                <h3>Abstract</h3>
+                                To gain an overview of the paper, you can read the abstract: 
+                                <br/><br/>
+                                This paper examines eyetracking as a method for doing evaluations on interfaces – more specific 
+                                web design. This will be done by carrying out an evaluation with users of a web based personal 
+                                portfolio with the software WebGazer.js, that measures the point of gaze (POG) through the 
+                                web-camera. The findings of the evaluation showed following insights, that direct the re-design 
+                                of the landing page of the portfolio: 1) users tend to fixate on text, mostly bold and larger, 
+                                2) users expect informative elements in the top and center of the screen. The re-design will 
+                                focus on improving the aesthetic functions, in accordance with the model of visual communication 
+                                in web design. The discussion will touch upon some of the uncertainties with the software and 
+                                the influences of the context of the evaluation. Furthermore, it suggests methodological triangulation 
+                                for a better understanding of the data. Lastly, it concludes that eyetracking as evaluation method 
+                                is appropriate and useful for designers, who doesn’t have a lot of programming knowledge, yet with 
+                                some attention to certain factors.
+                            </p>
+						</div>
+					</div>
+
+				<!-- Footer -->
+                <footer id="footer">
+                    <div class="inner">
+                        <ul class="copyright">
+                            <li>&copy; Eva Sørensen. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        </ul>
+                    </div>
+                </footer>
+
+        </div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
